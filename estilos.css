@@ -7,8 +7,7 @@
 
 
 .contenedor{
-	width: 100%;
-	max-width:1280px;
+	width: 100vw;
 	display:flex;
 	flex-direction:row;
 	flex-flow:row wrap;
@@ -19,7 +18,7 @@
 
 
 .fila1{
-	width:100%;
+	width:100vw;
 	height:10%;
 	
 	
@@ -38,7 +37,7 @@
 }
 .tel img{
 	width:15px;
-	margin-left:10px;
+	margin-left:20px;
 	
 }
 .redes{
@@ -53,7 +52,6 @@
 .fila1 ul li{
 	list-style:none;
 	display:inline-block;
-	float:right;
 	padding:7px 20px;
 	font-size:12px;
 	
@@ -129,6 +127,7 @@
 }
 .articulos div{
 	display:inline-block;
+	margin-left: 60px;
 	list-style:none;
 }
 
@@ -137,7 +136,7 @@
 }
 .fila3 h3{
     text-align:center;
-	
+		
 }
 .producto1:hover {
 	 background:#F3C923;
@@ -254,6 +253,7 @@
 .articulos1 div{
 	display:inline-block;
 	list-style:none;
+	margin-left: 45px;
 }
 
 .articulos1 img{
@@ -261,19 +261,19 @@
 }
 .agregar button{
 	margin-right:20px;
-	margin-left:130px;
 	display:inline-block;
 	
 }
 .añadir{
-	margin-left:50px;
+	margin-left:90px;
+
 
 }
 .añadir p{
 	color:#080808 ;
 	font-size:13px;
 	display:inline-block;
-	margin-right:20px;
+	margin-right:85px;
 	
 }
 .añadir button{
@@ -288,16 +288,15 @@
 	float:left;
 	background-color:#525250;
 	color:#F8F8F6;
-	margin-left:30px;
+	margin-left:50px;
 	margin-top:10px;
 }
 
 .menu ul li{
 	list-style:none;
 	display:inline-block;
-    float:left;
 	padding:7px 20px;
-	margin-left:20px;
+	margin-left:65px;
 }
 .menu ul li:hover{
 	background:#fff71b;
@@ -317,14 +316,16 @@
 	
 }
 .footer{ 
-       width:100%;
+       width:100vw;
 	   height:10%;
 	   background-color:#E7E2E2; 
-	   padding:10px;
+	   padding-left: 150px;
+	   padding-top: 30px;
 	 
 }
 .footer h4{
-	padding-bottom:10px;
+	padding-bottom:20px;
+
 }
 .footer ul li{
 	list-style:none;
@@ -332,20 +333,24 @@
 	padding-bottom:10px;
 
 
+
 }
 
 .servicios{
 	width:20%;
 	float:left;
+	margin-right: 70px;
 }
 
 .categoria1{
 	width:20%;
 	float:left;
+	margin-right: 70px;
 }
 .politicas{
 	width:20%;
 	float:left;
+	margin-right: 70px;
 }
 .nosotros{
 	width:20%;
